@@ -1,0 +1,75 @@
+**DAA PRACTICAL CHEAT SHEET (M.Sc. CS - CS554-MJP)**
+
+---
+
+**1. Quick Sort**  
+- **Function**: `quickSort(arr, low, high)`  
+- **Time Complexity**: O(n log n) avg, O(n^2) worst  
+- **Space**: O(log n)  
+- **Logic**: Divide using a pivot, recursively sort left and right.
+
+**2. Merge Sort**  
+- **Function**: `mergeSort(arr)`  
+- **Time Complexity**: O(n log n)  
+- **Space**: O(n)  
+- **Logic**: Recursively divide array into halves, merge sorted halves.
+
+**3. 0/1 Knapsack (DP)**  
+- **Function**: `knapsack(wt, val, W)`  
+- **Time Complexity**: O(n*W)  
+- **Space**: O(n*W)  
+- **Logic**: Use DP table to track max value at each weight capacity.
+
+**4. Fractional Knapsack (Greedy)**  
+- **Function**: `fractionalKnapsack(items, W)`  
+- **Time Complexity**: O(n log n)  
+- **Space**: O(1)  
+- **Logic**: Sort by value/weight, take full or fractional items.
+
+**5. DFS**  
+- **Function**: `DFS(graph, v, visited[])`  
+- **Time Complexity**: O(V + E)  
+- **Space**: O(V)  
+- **Logic**: Recursive graph traversal.
+
+**6. BFS**  
+- **Function**: `BFS(graph, start)`  
+- **Time Complexity**: O(V + E)  
+- **Space**: O(V)  
+- **Logic**: Use queue for level-wise traversal.
+
+**7. Dijkstra’s Algorithm**  
+- **Function**: `dijkstra(graph, src)`  
+- **Time Complexity**: O(V^2) or O((V+E) log V) with priority queue  
+- **Space**: O(V)  
+- **Logic**: Shortest path from source using greedy update.
+
+**8. Prim’s Algorithm**  
+- **Function**: `primMST(graph)`  
+- **Time Complexity**: O(V^2) or O((V+E) log V) with heap  
+- **Space**: O(V)  
+- **Logic**: Build MST by selecting min edge at each step.
+
+**9. N-Queens (Backtracking)**  
+- **Function**: `solveNQueens(board, row)`  
+- **Time Complexity**: O(N!)  
+- **Space**: O(N^2)  
+- **Logic**: Place one queen per row, backtrack if unsafe.
+
+**10. Topological Sort**  
+- **Function**: `topologicalSort(graph, v, visited, stack)`  
+- **Time Complexity**: O(V + E)  
+- **Space**: O(V)  
+- **Logic**: DFS post-order push into stack for linear order.
+
+---
+
+**🧠 Tips for Viva:**  
+- Always explain input, output, and basic working.
+- Mention time complexity when asked.
+- Use examples to explain algorithms.
+
+---
+
+**Prepared by:** ChatGPT — Based on Savitribai Phule Pune University CS554-MJP DAA Practical
+
